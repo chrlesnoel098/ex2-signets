@@ -1,3 +1,7 @@
+import './Dossier.scss';
+// import MoreVertIcon from '@material-ui/icons/MoreVert';
+// import SortIcon from '@material-ui/icons/Sort';
+
 export default function Dossier({id, titre, couleur, dateModif}) {
   return (
     <article className="Dossier">

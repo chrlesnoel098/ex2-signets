@@ -1,0 +1,50 @@
+.Dossier{
+    color: white;
+    margin: 0 0 20px 20px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.3);
+  
+    h2{
+      margin: 0;
+    }
+    
+  
+    .info{
+      display: block;
+      padding: 15px;
+  
+      h2{
+        font-weight: normal;
+      }
+    }
+    .couverture{
+      img{
+        display: block;
+      };
+      
+      .deplacer{
+        position: absolute;
+        margin: 7px 0 0 7px;
+        background-color: black;
+        border-radius: 100%;
+        opacity: 60%;
+        padding: 4px;
+        padding-bottom: 0;
+        cursor: move;
+      }
+    }
+    
+  
+    button{
+      align-self: flex-end;
+      margin-top: -35px;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+      &:focus{
+        outline:none;
+      }
+    }
+  }
