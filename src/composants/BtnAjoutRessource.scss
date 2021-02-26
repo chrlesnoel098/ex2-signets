@@ -1,20 +1,11 @@
 .BtnAjoutRessource{
     position: fixed;
-    right: 30px;
-    bottom: 30px;
-    margin: 0 0 30px 30px;
+    bottom: 2%;  
+    right: 2%;
     background-color: transparent;
     border: none;
-    color: white;
-    cursor: pointer;
-    &:focus{
-      outline:none;
-    }
-  
+    
     .MuiButtonBase-root{
-      background-color: #333333;
-    }
-    .MuiButtonBase-root:hover{
-      background-color: #333333;
+      background-color: rgb(22, 22, 22);
     }
   }

@@ -1,50 +1,40 @@
-.Dossier{
+.Dossier {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 20px 20px;
+  color: white;
+  box-shadow: 0 0 10px 0px rgba(85, 85, 85, 0.5);
+
+  h2 {
+    font-weight: lighter;
+  }
+
+  .info {
+    margin: 2% 0 10% 10%;
+  }
+
+  button {
+    align-self: flex-end;
+    margin-top: -18%;
+    border: none;
     color: white;
-    margin: 0 0 20px 20px;
-    display: flex;
-    flex-flow: column;
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.3);
-  
-    h2{
-      margin: 0;
-    }
-    
-  
-    .info{
-      display: block;
-      padding: 15px;
-  
-      h2{
-        font-weight: normal;
-      }
-    }
-    .couverture{
-      img{
-        display: block;
-      };
-      
-      .deplacer{
-        position: absolute;
-        margin: 7px 0 0 7px;
-        background-color: black;
-        border-radius: 100%;
-        opacity: 60%;
-        padding: 4px;
-        padding-bottom: 0;
-        cursor: move;
-      }
-    }
-    
-  
-    button{
-      align-self: flex-end;
-      margin-top: -35px;
-      background-color: transparent;
-      border: none;
-      color: white;
+    background-color: transparent;
+  }
+
+  .couverture {
+    .deplacer {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      background-color: black;
       cursor: pointer;
-      &:focus{
-        outline:none;
-      }
+      font-Size: 30;
+      margin: 5px 0 0 5px;
+      width: 40px;
+      height: 40px;
+      opacity: 0.4;
     }
   }
+}
